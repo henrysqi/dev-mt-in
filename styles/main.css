@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+main {
+	padding: 5% 10%;
+}
+
+
+
+
+/* ======================================================= */
+
 header {
 	display: relative;
 	padding: 20px;
@@ -12,7 +21,7 @@ header {
 
 header img{
 	display: inline;
-	height: 30px;
+	height: 20px;
 }
 
 header h1 {
@@ -20,7 +29,10 @@ header h1 {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%);
-	
+	font-family: 'Lora', serif;
+	line-height: 21px;
+	font-size: 16.8px;
+	color: #272727;
 }
 
 .ham {
@@ -28,7 +40,7 @@ header h1 {
 	right: 20px;
 }
 
-/* ////////////////////////////////////////////////////// */
+/* ============================================================ */
 
 footer {
 	position: absolute;
@@ -39,6 +51,7 @@ footer {
 
 footer a{
 	text-decoration: none;
+	color: inherit;
 }
 
 footer hr {
@@ -54,6 +67,11 @@ footer ul {
 
 footer ul li {
 	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 18px;
+	font-weight: bold;
+	font-size: 13.2px;
+	color: #A9A9A9;
 }
 
 .update-profile {
@@ -68,5 +86,6 @@ footer ul li {
 }
 
 .nav-underline {
-	border-bottom: thick solid red;
+	border-bottom: thick solid #00FFE9;
+	padding-bottom: 3px;
 }

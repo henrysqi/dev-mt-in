@@ -1,0 +1,68 @@
+.initial-form {
+	background-color: yellow;
+	width: 40%;
+	height: 60%;
+	position: relative;
+}
+
+.initial-form p {
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 12.07px;
+	line-height: 14px;
+	color: #232323;
+}
+
+.initial-form p span{
+	color: #74FDF2;
+}
+
+.inputs input {
+	font-family: 'Lora', serif;
+	font-size: 16.8px;
+	line-height: 21px;
+	margin: 10px 0;
+	padding: 3px;
+	color: #B6B6B6;
+	border-color: #EAEAEA;
+	border-style: solid;
+	width: 100%;
+}
+
+.inputs .input-bio {
+	padding-bottom: 150px;
+}
+
+.inputs button {
+	border: none;
+	background-color: #00FFE9;
+	font-family: 'Lora', serif;
+	font-size: 13.44px;
+	line-height: 17px;
+	color: #9A9A9A;
+	margin: 10px 0;
+	padding: 3px;
+	width: 100%;
+}
+
+/* ========================================================== */
+
+.initial-triangles {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================= */
