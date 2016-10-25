@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+	display: relative;
+	padding: 20px;
+	border-bottom: thin solid #EAEAEA;
+}
+
+header img{
+	display: inline;
+	height: 30px;
+}
+
+header h1 {
+	display: inline;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	
+}
+
+.ham {
+	position: absolute;
+	right: 20px;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 0px 13% 20px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer hr {
+	margin-bottom: 20px;
+	border: 0;
+	height: 2px;
+	background-color: #D7D7D7;
+}
+
+footer ul {
+	position: relative;
+}
+
+footer ul li {
+	display: inline;
+}
+
+.update-profile {
+	position: absolute;
+	right: 0px;
+}
+
+.find-friends {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.nav-underline {
+	border-bottom: thick solid red;
+}
