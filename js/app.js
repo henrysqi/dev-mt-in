@@ -6,7 +6,8 @@ angular.module('internApp', ['ui.router']).config(function($stateProvider, $urlR
 	$stateProvider
 		.state('initial', {
 			url: '/',
-			templateUrl: "../views/initial.html"
+			templateUrl: "../views/initial.html",
+			controller: 'initialCtrl'
 		})
 		.state('landing', {
 			url: '/landing',
