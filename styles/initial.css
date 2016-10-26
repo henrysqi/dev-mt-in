@@ -1,5 +1,4 @@
 .initial-form {
-	background-color: yellow;
 	width: 40%;
 	position: relative;
 	height: 400px;
@@ -76,7 +75,7 @@
 	height: 0;
 	border-style: solid;
 	border-width: 0 229px 290px 169px;
-	border-color: transparent transparent #007bff transparent;
+	border-color: transparent transparent gray transparent;
 	
   -ms-transform: rotate(10deg); /* IE 9 */
   -webkit-transform: rotate(10deg); /* Safari */

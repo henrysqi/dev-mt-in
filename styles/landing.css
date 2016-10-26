@@ -1,0 +1,40 @@
+.profile-text {
+	width: 40%;
+	position: relative;
+	height: 400px;
+	display: block;
+	float: left;
+	padding-top: 30px;
+}
+
+.first-name {
+	font-family: 'Lora', serif;
+	font-size: 38.4px;
+	line-height: 46px;
+	color: #272727;
+	font-weight: 400;
+}
+
+.last-name {
+	font-family: 'Lora', serif;
+	font-size: 38.4px;
+	line-height: 46px;
+	color: #272727;
+	margin-left: 15%;
+	font-weight: 400;
+}
+
+.tagline {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10.2px;
+	line-height: 14px;
+	color: #000000;
+	font-weight: 600;
+}
+
+.desc {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10.2px;
+	line-height: 14px;
+	color: #000000;
+}
