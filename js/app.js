@@ -11,7 +11,9 @@ angular.module('internApp', ['ui.router']).config(function($stateProvider, $urlR
 		})
 		.state('landing', {
 			url: '/landing',
-			templateUrl: "../views/landing.html"
+			templateUrl: "../views/landing.html",
+			controller: 'landingCtrl',
+			
 		})
 		.state('friends', {
 			url: '/friends',

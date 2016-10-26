@@ -2,4 +2,14 @@ angular.module('internApp').controller('initialCtrl', function($scope, mainServi
 	
 	$scope.saveChanges = mainService.saveChanges;
 	
+	$scope.user = mainService.getUser();
+	
+	
+	
+	
+	
+	
+	
+	
+	
 })
