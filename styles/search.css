@@ -1,0 +1,21 @@
+.search-right-bar {
+	padding: 14px 20px;
+	box-shadow: 3px 3px 3px #D8D8D8;
+	text-align: center;
+	border: 1px solid #D8D8D8;
+}
+
+.search-right-bar img{
+	display: inline;
+	margin-top: 5px;
+	position: absolute;
+	left: 12%;
+}
+
+.search-right-bar p{
+	display: inline;
+	font-family: 'Lora', serif;
+	font-size: 16.8px;
+	line-height: 21px;
+	color: #232323;
+}

@@ -1,0 +1,11 @@
+.add-friend-button {
+	border: none;
+	background-color: #00FFE9;
+	font-family: 'Lora', serif;
+	font-size: 13.18px;
+	line-height: 16px;
+	color: #232323;
+	margin-bottom: 5px;
+	padding: 3px;
+	width: 100%;
+}
