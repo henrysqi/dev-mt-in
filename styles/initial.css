@@ -71,14 +71,39 @@
 }
 
 .top-triangle {
+  /* the polygon() function takes a comma-separated list
+     of x y positions in relation to the origin 0 0 point
+     (the top-left) of the element, using those points
+     to form a line from one to the next (and from the last
+     to the first): */
+  -webkit-clip-path: polygon(48% 13%, 2% 75%, 82% 88%);
+	clip-path: polygon(48% 13%, 2% 75%, 82% 88%);
+	height: 70%;
+	width: 95%;
+	position: absolute;
+	bottom: 40%;
+}
+
+.bottom-triangle {
+	-webkit-clip-path: polygon(86% 23%, 25% 40%, 70% 100%);
+	clip-path: polygon(86% 23%, 25% 40%, 70% 100%);
+	position: absolute;
+	width: 110%;
+	height: 130%;
+	bottom: 30%;
+	right: 15%;
+}
+
+/*
+.top-triangle {
 	width: 0;
 	height: 0;
 	border-style: solid;
 	border-width: 0 229px 290px 169px;
 	border-color: transparent transparent gray transparent;
 	
-  -ms-transform: rotate(10deg); /* IE 9 */
-  -webkit-transform: rotate(10deg); /* Safari */
+  -ms-transform: rotate(10deg);   
+  -webkit-transform: rotate(10deg); 
   transform: rotate(10deg);
 	
 	margin-left: 10%;
@@ -93,20 +118,17 @@
 	border-width: 290px 179px 0 179px;
 	border-color: #00FFE9 transparent transparent transparent;
 	
-  -ms-transform: rotate(-10deg); /* IE 9 */
-  -webkit-transform: rotate(-10deg); /* Safari */
+  -ms-transform: rotate(-10deg); 
+  -webkit-transform: rotate(-10deg); 
   transform: rotate(-10deg);
 	
 	margin-left: 10%;
 	z-index: 0;
 	
 }
-
-
-
-
-
-
+*/
 
 
 /* ================================================= */
+
+
