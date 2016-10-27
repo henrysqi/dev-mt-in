@@ -17,15 +17,19 @@ angular.module('internApp', ['ui.router']).config(function($stateProvider, $urlR
 		})
 		.state('friends', {
 			url: '/friends',
-			templateUrl: "../views/friends.html"
+			templateUrl: "../views/friends.html",
+			controller: 'friendsCtrl'
 		})
 	  .state('search', {
 			url: '/search',
-			templateUrl: "../views/search.html"
+			templateUrl: "../views/search.html",
+			controller: 'searchCtrl'
 		})
 	  .state('profile', {
-			url: '/profile',
-			templateUrl: "../views/profile.html"
+			url: '/profile/:id',
+			parent: 'search',
+			templateUrl: "../views/profile.html",
+			controller: 'profileCtrl'
 		})
 	  .state('update', {
 			url: '/update',

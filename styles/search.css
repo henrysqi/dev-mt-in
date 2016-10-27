@@ -12,10 +12,15 @@
 	left: 12%;
 }
 
-.search-right-bar p{
+.search-right-bar ::-webkit-input-placeholder{
 	display: inline;
 	font-family: 'Lora', serif;
 	font-size: 16.8px;
 	line-height: 21px;
 	color: #232323;
+}
+
+.search-right-bar input {
+	border: none;
+	padding-top: 5px;
 }

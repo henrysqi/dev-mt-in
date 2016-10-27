@@ -19,17 +19,14 @@
   
 	<section class="friends-right">
 		<div class="search-right-bar">
-			<img class="search" src="images/Icons/Search.svg" />
-			<p>Search For Friends</p>
+			<img class="search" src="images/Icons/Search.svg" ng-click="getPeople(searchInput)"/>
+			<input type="text" placeholder="Search for Friends" ng-model="searchInput">
 		</div>
 		<br>
 		<div class="friend-tiles">
-			<div class="friend-tile"></div>
-			<div class="friend-tile"></div>
-			<div class="friend-tile"></div>
-			<div class="friend-tile"></div>
-			<div class="friend-tile"></div>
-			<div class="friend-tile"></div>
+			<div class="friend-tile" ng-repeat="person in people">
+				<a ui-sref="profile({id: {{person.id}} })">{{person.name}}</a>
+			</div>
 		</div>
 	</section>
 	
