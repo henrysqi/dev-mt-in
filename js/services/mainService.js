@@ -62,6 +62,11 @@ angular.module('internApp').service('mainService', function($http, $q, $state){
 	var friends = [];
 	
 	this.addFriend = function(obj){
+		for (var i = 0; i < friends.length; i++){
+			if (friends[i]._id === obj._id){
+				return;
+			}
+		}
 		friends.push(obj);
 	}
 	

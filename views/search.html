@@ -22,9 +22,9 @@
 		</div>
 		<br>
 		<div class="friend-tiles">
-			<a ui-sref="profile({id: person._id })"><div class="friend-tile" ng-repeat="person in people">
-				{{person.name}}
-			</div></a>
+			<div class="friend-tile" ng-repeat="person in people">
+				<a ui-sref="profile({id: person._id })">{{person.name}}</a>
+			</div>
 		</div>
 	</section>
 	

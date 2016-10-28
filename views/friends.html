@@ -27,11 +27,13 @@
 		<br>
 		<div class="friend-tiles">
 			<div class="friend-tile" ng-repeat="friend in friends">
-				<div class="tile-info">
-					<p class="tile-name">{{friend.name}}</p>
-						<br>
-					<p class="tile-button">View Profile</p>
-				</div>
+				<a ui-sref="profile({id: friend._id })">
+					<div class="tile-info">
+						<p class="tile-name">{{friend.name}}</p>
+							<br>
+						<p class="tile-button">View Profile</p>
+					</div>
+				</a>
 			</div>
 		</div>
 	</section>
