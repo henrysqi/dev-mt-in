@@ -32,7 +32,8 @@ angular.module('internApp', ['ui.router']).config(function($stateProvider, $urlR
 		})
 	  .state('update', {
 			url: '/update',
-			templateUrl: "../views/update.html"
+			templateUrl: "../views/update.html",
+			controller: 'updateCtrl'
 		});
 	  
 	

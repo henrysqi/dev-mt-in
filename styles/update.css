@@ -1,0 +1,16 @@
+.search-right-bar ::-webkit-input-placeholder{
+	color: lightgray;
+}
+
+.search-right-bar input {
+	border: 1px solid #D7D7D7;
+}
+
+#update-button {
+	padding: 14px 20px;
+	box-shadow: 3px 3px 3px #D8D8D8;
+	text-align: center;
+	border: 1px solid #D8D8D8;
+	background-color: white;
+	width: 100%;
+}

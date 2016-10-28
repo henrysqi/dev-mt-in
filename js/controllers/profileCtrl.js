@@ -1,5 +1,7 @@
 angular.module('internApp').controller('profileCtrl', function($scope, mainService, $stateParams){
 	
+	$scope.user = mainService.getUser();
+	
 	$scope.getProfile = function(id){
 		mainService.getProfile(id).then(function(res){
 			$scope.searchedProfile = res;
