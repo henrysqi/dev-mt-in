@@ -4,7 +4,6 @@ angular.module('internApp').controller('friendsCtrl', function($scope, mainServi
 	
 	$scope.friends = mainService.getFriends();
 	
-	console.log($scope.friends);
 	
 	
 	
