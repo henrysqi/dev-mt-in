@@ -27,7 +27,6 @@ angular.module('internApp', ['ui.router']).config(function($stateProvider, $urlR
 		})
 	  .state('profile', {
 			url: '/profile/:id',
-			parent: 'search',
 			templateUrl: "../views/profile.html",
 			controller: 'profileCtrl'
 		})

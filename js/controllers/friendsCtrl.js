@@ -2,7 +2,9 @@ angular.module('internApp').controller('friendsCtrl', function($scope, mainServi
 	
 	$scope.user = mainService.getUser();
 	
+	$scope.friends = mainService.getFriends();
 	
+	console.log($scope.friends);
 	
 	
 	

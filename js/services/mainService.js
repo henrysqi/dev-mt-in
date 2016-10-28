@@ -20,23 +20,11 @@ angular.module('internApp').service('mainService', function($http, $q, $state){
 			}
 			$state.go("landing");		
 		}
-		console.log(user)
 	}
 	
 	this.getUser = function(){
 		return user;
 	}
-	
-	////////////////////////////////////////////////////////////////////////
-	
-	//Show current friends
-	
-	
-	
-	
-	
-	
-	
 	
 	/////////////////////////////////////////////////////////////////////////
 	
@@ -53,7 +41,6 @@ angular.module('internApp').service('mainService', function($http, $q, $state){
 		return deferred.promise;
 	} 
 	
-	
 	///////////////////////////////////////////////////////////////////////////
 	
 	//get profile by id
@@ -68,6 +55,70 @@ angular.module('internApp').service('mainService', function($http, $q, $state){
 		})
 		return deferred.promise;
 	}
+	
+	///////////////////////////////////////////////////////////////////////////
+	
+	//Add friend
+	var friends = [];
+	
+	this.addFriend = function(obj){
+		friends.push(obj);
+	}
+	
+	this.getFriends = function(){
+		return friends;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

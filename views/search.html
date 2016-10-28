@@ -25,7 +25,7 @@
 		<br>
 		<div class="friend-tiles">
 			<div class="friend-tile" ng-repeat="person in people">
-				<a ui-sref="profile({id: {{person.id}} })">{{person.name}}</a>
+				<a ui-sref="profile({id: person._id })">{{person.name}}</a>
 			</div>
 		</div>
 	</section>
