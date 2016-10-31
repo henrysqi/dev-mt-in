@@ -50,7 +50,8 @@
 }
 
 .friend-tile {
-	background-color: gray;
+	background-image: url('../images/pictures/46907721-People-icon-hand-drawn-vecotr-doodle-element-Stock-Vector.jpg');
+	background-size: cover;
 	float: left;
 	height: 33%;
 	width: 40%;
